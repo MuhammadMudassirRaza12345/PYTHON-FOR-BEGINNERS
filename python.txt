@@ -2,3 +2,13 @@ i love you
 i love you 1
 i love you 2
 
+
+
+instruction for mymodule:
+open in cmd in existing folder of python
+python 
+exit()
+dir
+python mymodule.py
+
+now go to modules:
