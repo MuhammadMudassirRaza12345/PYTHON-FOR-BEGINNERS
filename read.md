@@ -25,9 +25,9 @@
 [15- Time](#15--time)\
 [16- Lamda Functions](#16--lamda-functions)\
 [17- Map, Reduce And Filter](#17--map--reduce-and-filter)\
-[18- _name_=_main_](#18--namemain)\
+[18- _name_=_main_](#18--namemain)
 
->Assignments For Above All ==> [Click Here](https://github.com/MuhammadMudassirRaza12345/Python_Assignments_For_Beginners)
+>**Assignments For Above All ==>** [Click Here](https://github.com/MuhammadMudassirRaza12345/Python_Assignments_For_Beginners)
 
 
 
