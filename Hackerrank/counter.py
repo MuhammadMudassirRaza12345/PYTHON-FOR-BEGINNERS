@@ -1,0 +1,121 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.\n",
+    "# Sample Code\n",
+    "\n",
+    "# #>>> from collections import Counter\n",
+    "# #>>> \n",
+    "# #>>> myList = [1,1,2,3,4,5,3,2,3,4,2,1,2,3]\n",
+    "# #>>> print Counter(myList)\n",
+    "# Counter({2: 4, 3: 4, 1: 3, 4: 2, 5: 1})\n",
+    "# >>>\n",
+    "# >>> print Counter(myList).items()\n",
+    "# [(1, 3), (2, 4), (3, 4), (4, 2), (5, 1)]\n",
+    "# >>> \n",
+    "# >>> print Counter(myList).keys()\n",
+    "# [1, 2, 3, 4, 5]\n",
+    "# >>> \n",
+    "# >>> print Counter(myList).values()\n",
+    "# [3, 4, 4, 2, 1]\n",
+    "\n",
+    "# Ali is a shoe shop owner. His shop has X  number of shoes.\n",
+    "# He has a list containing the size of each shoe he has in his shop.\n",
+    "# There are N number of customers who are willing to pay xi amount of money only if they get the shoe of their desired size.\n",
+    "\n",
+    "# Your task is to compute how much money Ali earned.\n",
+    "\n",
+    "# Input Format  \n",
+    "# The first line contains X, the number of shoes.\n",
+    "# The second line contains the space separated list of all the shoe sizes in the shop.\n",
+    "# The third line contains N, the number of customers.\n",
+    "# The next N lines contain the space separated values of the shoe size desired by the customer and xi, the price of the shoe.\n",
+    "\n",
+    "# Output Format\n",
+    "# Print the amount of money earned by Ali.\n",
+    "\n",
+    "# Sample Input\n",
+    "# 10\n",
+    "# 2 3 4 5 6 8 7 6 5 18\n",
+    "# 6\n",
+    "# 6 55  \n",
+    "# 6 45\n",
+    "# 6 55\n",
+    "# 4 40\n",
+    "# 18 60\n",
+    "# 10 50\n",
+    "\n",
+    "# Sample Output\n",
+    "# 200\n",
+    "\n",
+    "# Explanation\n",
+    "# Customer 1: Purchased size 6 shoe for $55.\n",
+    "# Customer 2: Purchased size 6 shoe for $45.\n",
+    "# Customer 3: Size 6 no longer available, so no purchase.\n",
+    "# Customer 4: Purchased size 4 shoe for $40.\n",
+    "# Customer 5: Purchased size 18 shoe for $60.\n",
+    "# Customer 6: Size 10 not available, so no purchase.\n",
+    "\n",
+    "# Total money earned = 55+45+40+60 = 200\n",
+    "\n",
+    "# Enter your code here. Read input from STDIN. Print output to STDOUT\n",
+    "import collections\n",
+    "from collections import Counter\n",
+    "X = int(input())\n",
+    "shoe_sizes = Counter(map(int, input().split())) \n",
+    "print(shoe_sizes)\n",
+    "# N = int(input())\n",
+    "# earnings = 0\n",
+    "# for i in range(N):\n",
+    "#     size, price = map(int, input().split())\n",
+    "#     if shoe_sizes[size]:\n",
+    "#         earnings += price\n",
+    "#         shoe_sizes[size] -= 1\n",
+    "# print(earnings)\n",
+    "\n",
+    " \n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3.9.12 ('base')",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  },
+  "orig_nbformat": 4,
+  "vscode": {
+   "interpreter": {
+    "hash": "02905ec98eafd26b0a5e89509b14ca35f002d9c808422b805683642982593c25"
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
