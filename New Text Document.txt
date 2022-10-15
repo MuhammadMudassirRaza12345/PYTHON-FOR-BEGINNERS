@@ -1,0 +1,13 @@
+Example:  shoes shop
+
+req:
+
+shoes size
+inputshoessize
+check the require shoes size 
+if present then tell the user size and price
+remove the size which is sale
+
+
+
+
