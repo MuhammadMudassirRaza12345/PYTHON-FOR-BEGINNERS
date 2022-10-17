@@ -42,7 +42,7 @@
 >1. Relational Operators .
 >2.  IF and Else 
 
->For Code [Click here](Basic/../Basics/Begineers/#%20Relation_operator%20and%20IF%20and%20Else%20.ipynb)
+>For Code [Click here](./Basics/Begineers/%23%20Relation_operator%20and%20IF%20and%20Else%20.ipynb)
 
 ## 3- List  
 >1. List .
@@ -90,7 +90,9 @@
 >        1a) Multilevel inheritance \
 >        1b) Multilevel inheritance
 
->[Hint:start from OOP_01] For Code [Click here](OOP/)
+>Instructions:Start from OOP_01,OOP_02,pillars of OOP1 ,pillars of OOP2 and Revision of OOP.
+
+>For Code [Click here](OOP/)
 
 
 ## 10- File Handling :  
@@ -99,7 +101,7 @@
 >1. File append()  .
         
 
->[Hint:start from OOP_01] For Code [Click here](Basics/File_handling/File%20Handling%C2%B6.ipynb)
+>For Code [Click here](Basics/File_handling/File%20Handling%C2%B6.ipynb)
 
 ## 11- CSV File :  
 >1. How to open csv file .
@@ -107,7 +109,7 @@
 >1. JSON   .
         
 
->[Hint:start from OOP_01] For Code [Click here](datacsv/Untitled.ipynb)
+>For Code [Click here](datacsv/Untitled.ipynb)
 
 ## 12-  Predefined Modules :  
 >1. Predefine Modules  .
@@ -115,7 +117,7 @@
 >1. JSON   .
         
 
->[Hint:start from OOP_01] For Code [Click here](Basics/Predefine_Modules/Modules%20or%20Libraries%20or%20Packages%20.ipynb)
+>For Code [Click here](Basics/Predefine_Modules/Modules%20or%20Libraries%20or%20Packages%20.ipynb)
 
 ## 13- Stars Patterns :
 >1. All kind of Stars Present
@@ -126,26 +128,27 @@
 >1. Exceptions
 >2. Try And Excepts
 
-For Code [Click here](basics/try_and_exceptions/exceptions.ipynb)
+>For Code [Click here](basics/try_and_exceptions/exceptions.ipynb)
 
 ## 15- Time :
 >1. Time Modules
 
 
->For Code [Click here]()
+>For Code [Click here](./Basics/Begineers/Time%20Module%20In%20Python.ipynb)
 
 ## 16- Lamda functions
 >1. Big function done in one ine
 
->For Code [Click here]()
+>For Code [Click here](./Basics/Begineers/Anonymous%20or%20Lambda%20Functions.ipynb)
  
 ## 17- Map , Reduce and Filter
 >1. Map()
 >1. Reduce()
 >1. Filter()
 
+>Instructions: Start from map.py , reduce.py and filter.py
 
->For Code [Click here](basics/Begineers/Time%20Module%20In%20Python.ipynb)
+>For Code [Click here](./map%2Cfilter%2Creduce/)
   
 ## 18- _name_==_main_ 
 >1. why _name_==_main_ ?
